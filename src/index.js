@@ -13,6 +13,12 @@ app.use((req, res, next) => {
   // 1 day cache.
   res.header("Cache-Control", "public, max-age=86400");
 
+  // X-Powered-By
+  res.header(
+    "X-Powered-By",
+    `jcx/mcuuid/${require("../package.json").version}`
+  );
+
   next();
 });
 
