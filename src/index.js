@@ -12,7 +12,6 @@ app.use((req, res, next) => {
 
   // 1 day cache.
   res.header("Cache-Control", "public, max-age=86400");
-  res.setHeader("Expires", new Date(Date.now() + 86400).toUTCString());
 
   // X-Powered-By
   res.header(
