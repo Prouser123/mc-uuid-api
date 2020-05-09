@@ -1,0 +1,24 @@
+{
+  "name": "mc-uuid-api",
+  "version": "0.0.1",
+  "description": "A load-balanced minecraft uuid api.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prouser123/mc-uuid-api.git"
+  },
+  "author": "James Cahill <npm@jcx.ovh>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Prouser123/mc-uuid-api/issues"
+  },
+  "homepage": "https://github.com/Prouser123/mc-uuid-api#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
